@@ -6,3 +6,10 @@ redis:
   overrides:
     maxdbsize: 50Mi
   template: tyk
+- chartVersion: '1.4'
+  env: cluster1
+  name: tyk-ent-bluetorch
+  namespace: perimeter
+  overrides:
+    maxdbsize: 50Mi
+  template: tyk
