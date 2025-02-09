@@ -6,7 +6,6 @@ redis:
   overrides:
     maxdbsize: 50Mi
   template: tyk
-  usergroup: 67a8cbfe5511b30001a8fafb
 - chartVersion: '1.4'
   env: cluster1
   name: gateway-perimeter-cluster1
@@ -14,7 +13,6 @@ redis:
   overrides:
     maxdbsize: 50Mi
   template: tyk
-  usergroup: 67a8cc045511b30001a8fafc
 - chartVersion: '1.4'
   env: cluster1
   name: tyk-ent-bluetorch
@@ -22,7 +20,6 @@ redis:
   overrides:
     maxdbsize: 50Mi
   template: tyk
-  usergroup: 67a8cc865511b30001a8fafd
 - chartVersion: '1.4'
   env: cluster1
   name: tyk-ent-bluetorch
@@ -30,4 +27,10 @@ redis:
   overrides:
     maxdbsize: 50Mi
   template: tyk
-  usergroup: 67a8d5aa5511b30001a8fafe
+- chartVersion: '1.4'
+  env: cluster1
+  name: tyk-ent-bluetorch
+  namespace: perimeter
+  overrides:
+    maxdbsize: 50Mi
+  template: tyk
