@@ -1,9 +1,1 @@
-redis:
-- chartVersion: '1.4'
-  env: cluster1
-  name: gateway-perimeter-cluster1
-  namespace: perimeter
-  overrides:
-    maxdbsize: 50MiMiMiMiMiMi
-  template: tyk
-  usergroup: 67a8caa55511b30001a8faf7
+redis: []
