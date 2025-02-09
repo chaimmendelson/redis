@@ -4,7 +4,7 @@ redis:
   name: gateway-perimeter-cluster1
   namespace: perimeter
   overrides:
-    maxdbsize: 50MiMi
+    maxdbsize: 50MiMiMi
   template: tyk
   usergroup: 67a8caa55511b30001a8faf7
 - chartVersion: '1.4'
@@ -12,6 +12,14 @@ redis:
   name: gateway-perimeter-cluster1
   namespace: perimeter
   overrides:
-    maxdbsize: 50Mi
+    maxdbsize: 50MiMi
   template: tyk
   usergroup: 67a8caa75511b30001a8faf8
+- chartVersion: '1.4'
+  env: cluster1
+  name: gateway-perimeter-cluster1
+  namespace: perimeter
+  overrides:
+    maxdbsize: 50Mi
+  template: tyk
+  usergroup: 67a8caa85511b30001a8faf9
