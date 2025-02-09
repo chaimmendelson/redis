@@ -15,3 +15,11 @@ redis:
     maxdbsize: 50Mi
   template: tyk
   usergroup: 67a8cc045511b30001a8fafc
+- chartVersion: '1.4'
+  env: cluster1
+  name: tyk-ent-bluetorch
+  namespace: perimeter
+  overrides:
+    maxdbsize: 50Mi
+  template: tyk
+  usergroup: 67a8cc865511b30001a8fafd
